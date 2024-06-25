@@ -1,0 +1,113 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.experience li {
+    margin-bottom: 1rem;
+}
+
+.experience li .period {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experience li .period::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/calendar.svg');
+    margin-right: .5rem;
+}
+
+.experience {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: transparent; /* Set background to transparent */
+}
+
+.experience ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.company {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.position {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.duration {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+#cypress {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
+    border-radius: 10px; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para cobrir completamente o contêiner sem distorção */
+    border: 2px solid #ddd; /* Ajuste a cor e a largura da borda conforme necessário */
+}
+
+#react {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
+    border-radius: 10px; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para cobrir completamente o contêiner sem distorção */
+    border: 2px solid rgba(0, 0, 0, 0.658); /* Ajuste a cor e a largura da borda conforme necessário */
+}
+
+#vue {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
+    border-radius: 10px; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para cobrir completamente o contêiner sem distorção */
+    border: 2px solid #ddd; /* Ajuste a cor e a largura da borda conforme necessário */
+}
+
+#ctfl {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
+    border-radius: 10px; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para cobrir completamente o contêiner sem distorção */
+    border: 2px solid #ddd; /* Ajuste a cor e a largura da borda conforme necessário */
+}
+
+#scrum {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
+    border-radius: 10px; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para cobrir completamente o contêiner sem distorção */
+    border: 2px solid #ddd; /* Ajuste a cor e a largura da borda conforme necessário */
+}
+
+#jmeter {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
+    border-radius: 10px; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para cobrir completamente o contêiner sem distorção */
+    border: 2px solid #ddd; /* Ajuste a cor e a largura da borda conforme necessário */
+}
