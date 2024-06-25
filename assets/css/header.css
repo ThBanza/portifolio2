@@ -62,6 +62,24 @@
     background-image: url('../img/icons/location.svg');
 }
 
+.information .github::before {
+    background-image: url('../img/icons/github.svg');
+}
+
+.information .github::before {
+    content: "";
+    display: inline-block;
+    width: 15px; /* Ajuste o tamanho conforme necessário */
+    height: 15px; /* Ajuste o tamanho conforme necessário */
+    background-image: url('../img/icons/github.svg');
+    background-size: cover;
+    filter: sepia(1) saturate(10) hue-rotate(250deg) brightness(1.2); 
+}
+
+.information .linkedin::before {
+    background-image: url('../img/icons/check.svg');
+}
+
 .information .email::before {
     background-image: url('../img/icons/email.svg');
 }
