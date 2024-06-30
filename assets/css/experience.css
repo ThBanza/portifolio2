@@ -72,7 +72,7 @@
     border: 2px solid #ddd; /* Ajuste a cor e a largura da borda conforme necessário */
 }
 
-#react {
+#node {
     width: 100px; /* Ajuste o tamanho conforme necessário */
     height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
     border-radius: 10px; /* Torna a imagem circular */
@@ -145,14 +145,6 @@
 }
 
 #mysql {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
-    border-radius: 10px; /* Torna a imagem circular */
-    object-fit: cover; /* Ajusta a imagem para cobrir completamente o contêiner sem distorção */
-    border: 2px solid white; /* Ajuste a cor e a largura da borda conforme necessário */
-}
-
-#node {
     width: 100px; /* Ajuste o tamanho conforme necessário */
     height: 100px; /* Certifique-se de que a largura e a altura sejam iguais para garantir um círculo perfeito */
     border-radius: 10px; /* Torna a imagem circular */
